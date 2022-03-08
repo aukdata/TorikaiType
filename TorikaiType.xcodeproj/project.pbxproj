@@ -37,6 +37,7 @@
 		2C5C470F26B4F08A005E8C85 /* libopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5C470D26B4F08A005E8C85 /* libopus.a */; };
 		2C5C471126B4F08E005E8C85 /* libzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5C471026B4F08E005E8C85 /* libzlib.a */; };
 		2C6906D82298140F00A427D0 /* engine in Resources */ = {isa = PBXBuildFile; fileRef = 2C6906D72298140F00A427D0 /* engine */; };
+		F16E269927D7324300D9E345 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = F16E269827D7324300D9E345 /* words.txt */; };
 		F18BEA9527D102B1007E0E6A /* CheckBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F18BEA8B27D102B1007E0E6A /* CheckBox.cpp */; };
 		F18BEA9627D102B1007E0E6A /* Typing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F18BEA8C27D102B1007E0E6A /* Typing.cpp */; };
 		F18BEA9727D102B1007E0E6A /* WordFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F18BEA8E27D102B1007E0E6A /* WordFactory.cpp */; };
@@ -77,6 +78,7 @@
 		2C5C470D26B4F08A005E8C85 /* libopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopus.a; path = /usr/local/lib/opensiv3d/v0.6.3/lib/macOS/opus/libopus.a; sourceTree = "<group>"; };
 		2C5C471026B4F08E005E8C85 /* libzlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzlib.a; path = /usr/local/lib/opensiv3d/v0.6.3/lib/macOS/zlib/libzlib.a; sourceTree = "<group>"; };
 		2C6906D72298140F00A427D0 /* engine */ = {isa = PBXFileReference; lastKnownFileType = folder; name = engine; path = App/engine; sourceTree = "<group>"; };
+		F16E269827D7324300D9E345 /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
 		F18BEA8B27D102B1007E0E6A /* CheckBox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CheckBox.cpp; sourceTree = "<group>"; };
 		F18BEA8C27D102B1007E0E6A /* Typing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Typing.cpp; sourceTree = "<group>"; };
 		F18BEA8D27D102B1007E0E6A /* KeyboardInput.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = KeyboardInput.hpp; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		2C1778791CE0A9D800BB8AD0 = {
 			isa = PBXGroup;
 			children = (
+				F16E269827D7324300D9E345 /* words.txt */,
 				2C6906D72298140F00A427D0 /* engine */,
 				2C1778921CE0A9EA00BB8AD0 /* Info.plist */,
 				2C1778A21CE0B65500BB8AD0 /* icon.icns */,
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C6906D82298140F00A427D0 /* engine in Resources */,
+				F16E269927D7324300D9E345 /* words.txt in Resources */,
 				2C1778A31CE0B65500BB8AD0 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
